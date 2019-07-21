@@ -43,6 +43,7 @@ public class DicoveryStepDefinition extends PropertiesReader{
 		JavascriptExecutor js = (JavascriptExecutor)driver;
 		js.executeScript("arguments[0].scrollIntoView();",element);
 		action.moveToElement(element).build().perform();
+		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 		js.executeScript("arguments[0].click();",element);
 	}
 	
