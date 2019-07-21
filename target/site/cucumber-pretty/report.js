@@ -54,7 +54,7 @@ formatter.match({
   "location": "DicoveryStepDefinition.launh_browser_to_enter_url()"
 });
 formatter.result({
-  "duration": 35005285536,
+  "duration": 17117579997,
   "status": "passed"
 });
 formatter.match({
@@ -67,7 +67,7 @@ formatter.match({
   "location": "DicoveryStepDefinition.add_video_to_favourites_list(String)"
 });
 formatter.result({
-  "duration": 345025873,
+  "duration": 428495929,
   "status": "passed"
 });
 formatter.match({
@@ -80,14 +80,14 @@ formatter.match({
   "location": "DicoveryStepDefinition.add_video_to_favourites_list(String)"
 });
 formatter.result({
-  "duration": 334171495,
+  "duration": 218381218,
   "status": "passed"
 });
 formatter.match({
   "location": "DicoveryStepDefinition.navigate_to_my_videos()"
 });
 formatter.result({
-  "duration": 682924151,
+  "duration": 631794227,
   "status": "passed"
 });
 formatter.match({
@@ -104,7 +104,7 @@ formatter.match({
   "location": "DicoveryStepDefinition.verify_video1_title_description(String,String)"
 });
 formatter.result({
-  "duration": 8291946370,
+  "duration": 5069449817,
   "status": "passed"
 });
 formatter.match({
@@ -121,11 +121,11 @@ formatter.match({
   "location": "DicoveryStepDefinition.verify_video2_title_description(String,String)"
 });
 formatter.result({
-  "duration": 90946948,
+  "duration": 87187169,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1073535569,
+  "duration": 890553391,
   "status": "passed"
 });
 });

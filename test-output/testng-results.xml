@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="46149" started-at="2019-07-21T09:39:19Z" finished-at="2019-07-21T09:40:05Z">
+  <suite name="Suite" duration-ms="24892" started-at="2019-07-21T10:23:51Z" finished-at="2019-07-21T10:24:16Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="46149" started-at="2019-07-21T09:39:19Z" finished-at="2019-07-21T09:40:05Z">
+    <test name="Test" duration-ms="24892" started-at="2019-07-21T10:23:51Z" finished-at="2019-07-21T10:24:16Z">
       <class name="com.discovery.TestRunner.TestRunner">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.discovery.TestRunner.TestRunner@56ac3a89]" name="setUpClass" is-config="true" duration-ms="168" started-at="2019-07-21T09:39:19Z" finished-at="2019-07-21T09:39:19Z">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.discovery.TestRunner.TestRunner@56ac3a89]" name="setUpClass" is-config="true" duration-ms="247" started-at="2019-07-21T10:23:51Z" finished-at="2019-07-21T10:23:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.discovery.TestRunner.TestRunner@56ac3a89]" name="feature" duration-ms="45894" started-at="2019-07-21T09:39:20Z" data-provider="features" finished-at="2019-07-21T09:40:05Z">
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.discovery.TestRunner.TestRunner@56ac3a89]" name="feature" duration-ms="24525" started-at="2019-07-21T10:23:51Z" data-provider="features" finished-at="2019-07-21T10:24:16Z">
           <params>
             <param index="0">
               <value>
@@ -22,7 +22,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.discovery.TestRunner.TestRunner@56ac3a89]" name="tearDown" is-config="true" duration-ms="13" started-at="2019-07-21T09:40:05Z" finished-at="2019-07-21T09:40:05Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.discovery.TestRunner.TestRunner@56ac3a89]" name="tearDown" is-config="true" duration-ms="26" started-at="2019-07-21T10:24:16Z" finished-at="2019-07-21T10:24:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
