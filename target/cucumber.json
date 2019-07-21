@@ -1,0 +1,143 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Verify the videos added to favourites list appear with correct title and description",
+        "description": "",
+        "id": "discovery-my-videos-validations;verify-the-videos-added-to-favourites-list-appear-with-correct-title-and-description",
+        "after": [
+          {
+            "result": {
+              "duration": 1073535569,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DicoveryStepDefinition.quitDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 35005285536,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I launch Chrome browser and open url",
+            "match": {
+              "location": "DicoveryStepDefinition.launh_browser_to_enter_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 345025873,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I add video \"shark-week\" to favourites list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "shark-week",
+                  "offset": 13
+                }
+              ],
+              "location": "DicoveryStepDefinition.add_video_to_favourites_list(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 334171495,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I add video \"naked-and-afraid-xl\" to favourites list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "naked-and-afraid-xl",
+                  "offset": 13
+                }
+              ],
+              "location": "DicoveryStepDefinition.add_video_to_favourites_list(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 682924151,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Navigate to my videos",
+            "match": {
+              "location": "DicoveryStepDefinition.navigate_to_my_videos()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8291946370,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Verify the first video appear with correct title \"SHARK WEEK\" and description \"Television\u0027s longest running must-see summer TV event is filled with all things sharks! Shark Week 2019 will kick off Sunday, July 28.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "SHARK WEEK",
+                  "offset": 50
+                },
+                {
+                  "val": "Television\u0027s longest running must-see summer TV event is filled with all things sharks! Shark Week 2019 will kick off Sunday, July 28.",
+                  "offset": 79
+                }
+              ],
+              "location": "DicoveryStepDefinition.verify_video1_title_description(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 90946948,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Verify the second video appear with correct title \"NAKED AND AFRAID XL\" and description \"A group of the best survival experts in the world take on an un-survivable situation: 40 days. 40 nights. No food, water or clothes. To…\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "NAKED AND AFRAID XL",
+                  "offset": 51
+                },
+                {
+                  "val": "A group of the best survival experts in the world take on an un-survivable situation: 40 days. 40 nights. No food, water or clothes. To…",
+                  "offset": 89
+                }
+              ],
+              "location": "DicoveryStepDefinition.verify_video2_title_description(String,String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Discovery My Videos validations",
+    "description": "",
+    "id": "discovery-my-videos-validations",
+    "keyword": "Feature",
+    "uri": "Discovery.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Discovery"
+      }
+    ]
+  }
+]
