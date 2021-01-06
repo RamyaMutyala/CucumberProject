@@ -15,6 +15,7 @@ public class PropertiesReader {
 			fInput = new FileInputStream(file);
 		}catch(FileNotFoundException e) {
 			e.printStackTrace();
+			System.out.println();
 		}
 		 prop = new Properties();
 		try {
